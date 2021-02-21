@@ -46,4 +46,34 @@ Data Analyst Intern at Technocolabs
 
 ### Data Visualization
 
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/item_type.jpg)
 
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/item_outlet_sleas.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/outlet_location_type.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/outlet_seize.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/outlet_type.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/item_fat_content.jpg)
+
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/correlation.jpg)
+
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/item_type%20vs%20item_mrp.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/item_type%20vs%20item_outlet_sales.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/item_type%20vs%20item_visibility.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/item_type%20vs%20item_weight.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/outlet_size%20vs%20item_outlet_sales.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/linear%20coff.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/ridge%20coeff.jpg)
+
+![](https://github.com/ShivankUdayawal/Technocolabs/blob/main/Data%20Visualization/lasso%20coeff.jpg)
