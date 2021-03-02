@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+<div style="color:blue">
+ <div class="login">
+    
+	<h1>Big Mart Sales Prediction By Shivank Udayawal</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    <h2>Predictive analysis</h2>
+    <h3>Item MRP</h3>
+    	<input type="text" name="Item_MRP" placeholder="Item_MRP" required="required" />
+    	<h3>What is your Item Fat Content O</h3>
+        <input type="text" name="Item_Fat_Content_0" placeholder="Item_Fat_Content_0" required="required" />
+        <h3>What's your Outlet Type 0</h3>
+		<input type="text" name="Outlet_Type_0" placeholder="Outlet_Type_0" required="required" />
+		<h3>What's your Outlet Type 1</h3>
+		<input type="text" name="Outlet_Type_1" placeholder="Outlet_Type_1" required="required" />
+		<h3>What's your Outlet Type 2</h3>
+        <input type="text" name="Outlet_Type_2" placeholder="Outlet_Type_2" required="required" />
+        <h3>What's your Outlet Type 3</h3>
+		<input type="text" name="Outlet_Type_3" placeholder="Outlet_Type_3" required="required" />
+
+
+       <br><br><button id="sub" type="submit " class="btn btn-primary btn-block btn-large">Predict</button>
+       <br>
+    </form>
+
+   <br>
+   <br>
+   <h3>{{ prediction_text }}<h3>
+
+ </div>
+
+ <style>
+        body {
+            background-image: url("pic3.jpg");
+            background-repeat: no-repeat;
+            background-size: 1800px 1000px;
+            background-color: lightslategray;
+            text-align: center;
+            padding: 0px;
+        } 
+        
+        #research {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+        
+ </style>       
+
+</body>
+</html>
+
+
+
+
+
