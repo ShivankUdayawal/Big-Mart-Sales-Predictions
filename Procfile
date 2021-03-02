@@ -1,1 +1,1 @@
-web:node src/server.js
+reminder:python src/quickstart.py
