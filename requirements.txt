@@ -13,4 +13,4 @@ sklearn==0.0
 threadpoolctl==2.1.0
 Werkzeug==1.0.1
 wincertstore==0.2
-gunicorn
+gunicorn==20.0.4
